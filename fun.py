@@ -38,7 +38,7 @@ def extract_landmarks(image):
             coords.extend([lm.x, lm.y, lm.z])
         return coords, results
     
-    return None, results   # ✅ FIX HERE
+    return None, results   
     
 
 def normalize_landmarks(landmarks):

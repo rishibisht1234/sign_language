@@ -8,7 +8,7 @@ import joblib
 from fun import normalize_landmarks, extract_landmarks
 
 
-model = joblib.load("model.pkl")
+model = joblib.load("model4.pkl")
 le = joblib.load("label_encoder.pkl")
 
 mp_hands = mp.solutions.hands
